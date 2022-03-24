@@ -1,0 +1,91 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "UserLogin/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/UserLogin.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UserLogin.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UserLogin/1.0.0": {
+      "type": "project",
+      "path": "../UserLogin/UserLogin.csproj",
+      "msbuildProject": "../UserLogin/UserLogin.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "UserLogin >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Martina\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Martina\\Desktop\\PS_31_MartinaMilanov\\StudentInfoSystem\\StudentInfoSystem.csproj",
+      "projectName": "StudentInfoSystem",
+      "projectPath": "C:\\Users\\Martina\\Desktop\\PS_31_MartinaMilanov\\StudentInfoSystem\\StudentInfoSystem.csproj",
+      "packagesPath": "C:\\Users\\Martina\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Martina\\Desktop\\PS_31_MartinaMilanov\\StudentInfoSystem\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Martina\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {
+            "C:\\Users\\Martina\\Desktop\\PS_31_MartinaMilanov\\UserLogin\\UserLogin.csproj": {
+              "projectPath": "C:\\Users\\Martina\\Desktop\\PS_31_MartinaMilanov\\UserLogin\\UserLogin.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

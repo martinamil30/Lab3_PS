@@ -1,0 +1,12 @@
+C:\Users\Martina\source\repos\PS_31_Martina\UserLogin\obj\Debug\net6.0\UserLogin.csproj.AssemblyReference.cache
+C:\Users\Martina\source\repos\PS_31_Martina\UserLogin\obj\Debug\net6.0\UserLogin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Martina\source\repos\PS_31_Martina\UserLogin\obj\Debug\net6.0\UserLogin.AssemblyInfoInputs.cache
+C:\Users\Martina\source\repos\PS_31_Martina\UserLogin\obj\Debug\net6.0\UserLogin.AssemblyInfo.cs
+C:\Users\Martina\source\repos\PS_31_Martina\UserLogin\obj\Debug\net6.0\UserLogin.csproj.CoreCompileInputs.cache
+C:\Users\Martina\source\repos\PS_31_Martina\UserLogin\bin\Debug\net6.0\UserLogin.deps.json
+C:\Users\Martina\source\repos\PS_31_Martina\UserLogin\bin\Debug\net6.0\UserLogin.dll
+C:\Users\Martina\source\repos\PS_31_Martina\UserLogin\bin\Debug\net6.0\UserLogin.pdb
+C:\Users\Martina\source\repos\PS_31_Martina\UserLogin\obj\Debug\net6.0\UserLogin.dll
+C:\Users\Martina\source\repos\PS_31_Martina\UserLogin\obj\Debug\net6.0\refint\UserLogin.dll
+C:\Users\Martina\source\repos\PS_31_Martina\UserLogin\obj\Debug\net6.0\UserLogin.pdb
+C:\Users\Martina\source\repos\PS_31_Martina\UserLogin\obj\Debug\net6.0\ref\UserLogin.dll
