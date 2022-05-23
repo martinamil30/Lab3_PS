@@ -1,28 +1,32 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace UserLogin
 {
     public class User
     {
-        private String _Username;
-        public String Username { get; set; }
-        private String _Password;
-        public String Password { get; set; }
-        private String _FacNum;
-        public String FacNum { get; set; }
-        private UserRoles _Role;
-        public UserRoles Role { get; set; }
+        public System.Int32 UserId
+        { get; set; }
+        public string Username
+        { get; set; }
 
-        public DateTime Created;
+        public string Password
+        { get; set; }
+
+        public string FakNum
+        { get; set; }
+
+        public int Role
+        { get; set; }
+
+        public DateTime Created
+        { get; set; }
+
+        public DateTime? ExpireOn
+        { get; set; }
+
         public User()
         {
-            
+
         }
-        
-       
     }
 }

@@ -3,41 +3,38 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using UserLogin;
 
 namespace StudentInfoSystem
 {
     internal class StudentData
     {
-        private List<Student> TestStudents;
+        private static List<Student> _testStudents;
 
-        public StudentData()
+        public static List<Student> TestStudents
         {
-            TestStudents = new List<Student>();
-            TestStudents.Add(exampleStudent());
+            get
+            {
+                ResetStudentsData();
+                return _testStudents;
+            }
         }
 
-        public List<Student> GetStudents()
+        private static void ResetStudentsData()
         {
-            return TestStudents;
+            if (_testStudents == null)
+            {
+                _testStudents = new List<Student>();
+
+                Student student = new Student();
+                student.FirstName = "Martina";
+                student.SecondName = "Milanov";
+                student.FacNum = "123219014";
+                student.Course = 3;
+                student.Major = "KSI";
+
+                _testStudents.Add(student);
+            }
         }
-
-        private void SetStudents(List<Student> list)
-        {
-            TestStudents = list;
-        }
-
-        private Student exampleStudent()
-        {
-            Student student = new Student();
-            student.Name = "Yordan";
-            student.FatherName = "Georgiev";
-            student.Family = "Berov";
-            student.FacultyNumber = "501219042";
-            student.Year = 3;
-            student.Specialty = "ITI";
-            return student;
-        }
-
-
     }
 }

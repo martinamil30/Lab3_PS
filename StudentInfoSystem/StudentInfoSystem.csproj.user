@@ -2,7 +2,18 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
-    <Page Update="MainWindow.xaml">
+    <Compile Update="View\Login.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="App.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Login.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\StudentInfo.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
